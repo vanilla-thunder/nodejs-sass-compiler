@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-sass-compiler",
+  "description": "nodejs based sass compiler for oxid templates",
+  "private": true,
+  "license": "GPL-3.0",
+  "README": "README",
+  "scripts": {
+    "start": "node sass.js"
+  },
+  "dependencies": {
+    "node-sass": "*",
+    "node-watch": "*",
+    "readdirp": "*"
+  }
+}
